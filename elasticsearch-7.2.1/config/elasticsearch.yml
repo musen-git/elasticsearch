@@ -12,7 +12,7 @@ xpack.security.transport.ssl.truststore.path: elastic-certificates.p12
 
 
 cluster.name: merp_es_cluster
-discovery.seed_hosts: ["elasticsearch-discovery"]
+discovery.seed_hosts: ["elasticsearch-master-discovery"]
 cluster.initial_master_nodes: ["elasticsearch-master-0"]
 network.host: 0.0.0.0
 # ======================== Elasticsearch Configuration =========================
