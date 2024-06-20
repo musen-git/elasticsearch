@@ -1,4 +1,4 @@
-FROM hub.intra.mlamp.cn/merp/centos7-java:1.8.0_112
+FROM centos7-java:1.8.0_112
 WORKDIR /opt/app
 COPY elasticsearch-7.2.1 /opt/app/elasticsearch-7.2.1
 #COPY jdk1.8.0_181 /usr/local/jdk1.8.0_181
